@@ -90,26 +90,26 @@ export default function Home() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div 
-  style={{
-    backgroundImage: 'url(https://i.etsystatic.com/ij/69a45a/6565032375/ij_680x540.6565032375_cxxnnddj.jpg?version=0)'
-  }} 
-  className="h-[80vh] sm:h-screen py-[33%] md:py-[20%] xl:py-[16%] px-[10%]"
->
-<div 
-  className="bg-white h-[400px] w-[400px] rounded-3xl shadow-lg flex flex-col justify-center items-center p-6"
->
-  <p className="font-[Quicksand] font-bold text-[#eecc8d] text-4xl md:text-7xl">
-    RENEW
-  </p>
-  <p className="font-[Quicksand] font-bold text-[#eecc8d] text-4xl md:text-7xl mb-4">
-    YOUR ROOMS
-  </p>
-  <p className="font-[Poppins] font-semibold text-[#eecc8d] text-lg text-center">
-    SHOP ORIGINAL HOME PIECES
-  </p>
-  <div className="w-[60px] md:w-[80px] h-[3px] bg-[#011F4B] mt-4"></div>
-</div>
+            <div
+              style={{
+                backgroundImage: 'url(https://i.etsystatic.com/ij/69a45a/6565032375/ij_680x540.6565032375_cxxnnddj.jpg?version=0)'
+              }}
+              className="h-[80vh] sm:h-screen py-[33%] md:py-[20%] xl:py-[16%] px-[10%]"
+            >
+              <div
+                className="bg-white h-[400px] w-[400px] rounded-3xl shadow-lg flex flex-col justify-center items-center p-6"
+              >
+                <p className="font-[Quicksand] font-bold text-[#eecc8d] text-4xl md:text-7xl">
+                  RENEW
+                </p>
+                <p className="font-[Quicksand] font-bold text-[#eecc8d] text-4xl md:text-7xl mb-4">
+                  YOUR ROOMS
+                </p>
+                <p className="font-[Poppins] font-semibold text-[#eecc8d] text-lg text-center">
+                  SHOP ORIGINAL HOME PIECES
+                </p>
+                <div className="w-[60px] md:w-[80px] h-[3px] bg-[#011F4B] mt-4"></div>
+              </div>
 
             </div>
           </SwiperSlide>
