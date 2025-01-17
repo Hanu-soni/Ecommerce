@@ -42,8 +42,8 @@ export default function Header(props) {
     }
   };
   const className =
-    (!pathInclude ? "bg-[#011f4b] text-white" : "bg-transparent absolute") +
-    " w-full font-semibold text-[#515151] px-10 py-3 z-10";
+    (!pathInclude ? "bg-[#ffffff] text-[#ffffff]" : "bg-[#ffffff] absolute text-[#515151]") +
+    " w-full font-semibold  px-10 py-3 z-10";
 
 
   const fetchSuggestions = async (searchword) => {
@@ -125,7 +125,7 @@ console.log("testing")
   return (
     <>
       <header className={className}>
-        <div className="hidden md:flex items-center justify-between">
+        <div className="mt-auto hidden md:flex items-center justify-between">
          
             <img src="/assets/logo1.png" alt="Logo" height={80} width={90} />
             
