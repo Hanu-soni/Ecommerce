@@ -63,37 +63,28 @@ export default function Home() {
         >
           <SwiperSlide>
             <div 
-           style={{
-            backgroundImage: 'url(https://i.etsystatic.com/ij/69a45a/6565032375/ij_680x540.6565032375_cxxnnddj.jpg?version=0)'
-          }} 
+          style={{
+            backgroundImage: 'url(https://i.etsystatic.com/ij/69a45a/6565032375/ij_680x540.6565032375_cxxnnddj.jpg?version=0)',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover', // Optional: Ensures the image covers the entire element
+            backgroundPosition: 'center', // Optional: Centers the image
+          }}
+          
            
               className="h-[80vh] sm:h-screen py-[33%] md:py-[20%] xl:py-[16%] px-[10%]"
               >
-              <div>
-                <p className="font-[Quicksand] font-normal text-[#011F4B] text-4xl md:text-7xl ">
-                 {/* Renew Your Rooms{" "} */}
-                </p>{" "}
-                <p className="font-[Quicksand] font-normal text-[#f1b738] text-4xl md:text-7xl mb-2">
-                  {" "}
-                   {/* Shop original Home pieces */}
-                </p>
-                <p className="font-[Poppins] ml-3 font-normal text-[#3E3E3E] ">
-                  {/* Lorem Ipsum, sometimes referred to as 'lipsum', is
-                  the placeholder text */}
-                </p>
-                <p className="font-[Poppins] ml-3 font-normal text-[#3E3E3E]">
-                  {" "}
-                  {/* used in design when creating content.{" "} */}
-                </p>
-                <div className="ml-3 w-[15%] md:w-[5%] h-[3px] bg-[#011F4B]  mt-[1%]"></div>
-              </div>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div
-              style={{
-                backgroundImage: 'url(https://i.etsystatic.com/ij/69a45a/6565032375/ij_680x540.6565032375_cxxnnddj.jpg?version=0)'
-              }}
+             style={{
+              backgroundImage: 'url(https://i.etsystatic.com/ij/69a45a/6565032375/ij_680x540.6565032375_cxxnnddj.jpg?version=0)',
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'cover', // Optional: Ensures the image covers the entire element
+              backgroundPosition: 'center', // Optional: Centers the image
+            }}
+            
               className="h-[80vh] sm:h-screen py-[33%] md:py-[20%] xl:py-[16%] px-[10%]"
             >
               <div

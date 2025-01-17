@@ -216,15 +216,15 @@ export default function Login() {
                     <div>
                     <Link
                       className="hover:underline decoration-2 underline-offset-4"
-                      to="/register/user"
+                      to="/"
                     >
-                      CREATE AN ACCOUNT AS USER?
+                      CREATE AN ACCOUNT AS USER
                     </Link>
                     </div>
                     <div>
                     <Link
                       className="hover:underline decoration-2 underline-offset-4"
-                      to="/register/seller"
+                      to="/"
                     >
                       CREATE AN ACCOUNT AS SELLER?
                     </Link>

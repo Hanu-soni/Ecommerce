@@ -138,13 +138,13 @@ console.log("testing")
               <Link to="/collections">
                 <li className="font-[Poppins] cursor-pointer">Collections</li>
               </Link>
-              <Link to="/men-collection">
+              <Link to="/">
                 <li className="font-[Poppins] cursor-pointer">Men</li>
               </Link>
-              <Link to="/women-collection">
+              <Link to="/">
                 <li className="font-[Poppins] cursor-pointer">Women</li>
               </Link>
-              <Link to="/kids-collection">
+              <Link to="/">
                 <li className="font-[Poppins] cursor-pointer">Kids</li>
               </Link>
               {/* <Link to="/brands">
